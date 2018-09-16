@@ -20,4 +20,4 @@ const Spinner = styled.div`
 `
 
 export default props => 
-  <Spinner/>
+  <Spinner {...props}/>
