@@ -73,7 +73,7 @@ const Input = styled.input`
 `
 
 export default props => 
-<React.Fragment>
-  {props.label ? <Label>{props.label}</Label> : ''}
-  <Input {...props} />
-</React.Fragment>
+  <div>
+    {props.label ? <Label>{props.label}</Label> : ''}
+    <Input {...props} />
+  </div>
