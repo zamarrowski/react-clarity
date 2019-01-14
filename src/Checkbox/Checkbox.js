@@ -20,8 +20,6 @@ const LabelContainer = styled.label`
     height: 0;
     width: 0;
   };
-
-
 `
 
 const InputCheckbox = styled.input`
@@ -32,7 +30,6 @@ const InputCheckbox = styled.input`
   &:checked + span:after {
     display: block;
   }
-
 `
 
 const SpanCheckmark = styled.span`
@@ -66,7 +63,6 @@ const SpanCheckmark = styled.span`
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
   };
-
 `
 
 
