@@ -18,6 +18,19 @@ let config = {
         test: /\.css$/,
         loader: 'style-loader!css-loader'
       }
+    ],
+    rules: [
+      {
+        test: /\.md$/,
+        use: [
+          {
+            loader: 'html-loader',
+          },
+          {
+            loader: 'markdown-loader',
+          },
+        ],
+      },
     ]
   }
 }
