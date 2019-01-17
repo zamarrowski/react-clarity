@@ -1,0 +1,4 @@
+# Spinner component
+
+## Example
+`<Spinner/>`

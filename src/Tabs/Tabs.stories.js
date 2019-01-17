@@ -1,19 +1,20 @@
-import React from 'react';
+import React from 'react'
 
-import { storiesOf } from '@storybook/react';
-
-import Tabs from './Tabs';
+import { storiesOf } from '@storybook/react'
+import { withReadme } from 'storybook-readme'
+import Readme from './tabs.md'
+import Tabs from './Tabs'
 
 storiesOf('Tabs', module)
-  .add('simple', () => (
+  .add('simple', withReadme(Readme, () => (
     <Tabs tabs={[
       {
-        name: 'yep',
-        content: 'tumami'
+        name: 'tab1',
+        content: 'tab1 content'
       }, 
       {
-        name: 'lol',
-        content: 'tupapi'
+        name: 'tab2',
+        content: 'tab2 content'
       }
     ]} />
-  ))
+  )))
