@@ -3,6 +3,7 @@ import styled, { css } from 'styled-components'
 
 const TabContainer = styled.div`
   box-sizing: inherit;
+  font-family: 'MetropolisRegular';
 `
 
 const TabButtonContainer = styled.ul`
@@ -38,6 +39,7 @@ const TabButton = styled.button`
   overflow: hidden;
   text-align: center;
   vertical-align: middle;
+  font-family: 'MetropolisRegular';
   height: 48px;
   &:hover {
     box-shadow: 0 -3px 0 #0079b8 inset;

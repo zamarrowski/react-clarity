@@ -9,6 +9,7 @@ const Badge = styled.span`
   padding: 8px 11px;
   white-space: nowrap;
   text-align: center;
+  font-family: 'MetropolisRegular';
 
   ${props => {
     if (props.children.length > 1) {

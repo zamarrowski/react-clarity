@@ -13,6 +13,7 @@ const Modal = styled.div`
   justify-content: center;
   align-items: center;
   padding: 50px;
+  font-family: 'MetropolisRegular';
 
   ${props => {
     if (props.show) {

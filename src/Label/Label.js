@@ -15,6 +15,7 @@ const Label = styled.span`
   margin: 0 .25rem 0 0;
   white-space: nowrap;
   color: #565656;
+  font-family: 'MetropolisRegular';
 
   ${props => props.purple && css`
     border: 1px solid #9b56bb;

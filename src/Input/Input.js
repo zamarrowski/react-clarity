@@ -6,6 +6,7 @@ const Label = styled.label`
   color: #444;
   font-weight: 600;
   line-height: .75rem;
+  font-family: 'MetropolisRegular';
 `
 
 const Input = styled.input`

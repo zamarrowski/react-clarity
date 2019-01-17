@@ -9,6 +9,7 @@ const Header = styled.header`
   color: #fafafa;
   height: 60px;
   white-space: nowrap;
+  font-family: 'MetropolisRegular';
 `
 
 const HeaderBranding = styled.div`

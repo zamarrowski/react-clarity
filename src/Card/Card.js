@@ -9,6 +9,7 @@ const Card = styled.div`
   display: block;
   background-color: #fff;
   width: 100%;
+  font-family: 'MetropolisRegular';
 `
 
 const CardTitle = styled.div`

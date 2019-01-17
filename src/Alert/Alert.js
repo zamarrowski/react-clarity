@@ -6,6 +6,7 @@ const Alert = styled.div`
   padding: .333333rem calc(.5rem - 1px);
   color: #565656;
   text-align: left;
+  font-family: 'MetropolisRegular';
   
   ${props => props.standard && css`
     border-width: 1px;

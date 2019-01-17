@@ -18,6 +18,7 @@ const Button = styled.button`
   border: 1px solid #0079b8;
   color: #0079b8;
   border-radius: 3px;
+  font-family: 'MetropolisRegular';
   
   &:hover {
     background-color: #e1f1f6;
