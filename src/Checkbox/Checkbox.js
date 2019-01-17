@@ -69,6 +69,6 @@ const SpanCheckmark = styled.span`
 export default props => 
   <LabelContainer>
     {props.label}
-    <InputCheckbox onChange={(e) => props.onCheck(e.target.checked)} type="checkbox" />
+    <InputCheckbox {...props} onChange={(e) => props.onCheck(e.target.checked)} type="checkbox" />
     <SpanCheckmark />
   </LabelContainer>
