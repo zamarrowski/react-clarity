@@ -1,9 +1,9 @@
-import React from 'react';
+import React from 'react'
 
-import { storiesOf } from '@storybook/react';
+import { storiesOf } from '@storybook/react'
 
-import Alert from './Alert';
-import { withReadme } from 'storybook-readme';
+import Alert from './Alert'
+import { withReadme } from 'storybook-readme'
 import AlertReadme from './AlertReadme.md'
 
 storiesOf('Alert', module)
