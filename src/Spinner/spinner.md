@@ -1,4 +1,0 @@
-# Spinner component
-
-## Example
-`<Spinner/>`
