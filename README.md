@@ -2,7 +2,7 @@
 
 React components that implement [Clarity Design](https://clarity.design/) using [styled-components](https://www.styled-components.com/) 💅
 
-## Components availables:
+## Available components:
 
 ✅ Alerts
 
