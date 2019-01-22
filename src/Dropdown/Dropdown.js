@@ -1,6 +1,7 @@
 import React from 'react'
 import styled, { css } from 'styled-components'
 import Button from './../Button/Button'
+import Ionicon from 'react-ionicons'
 
 const Dropdown = styled.div`
   position: relative;
@@ -86,7 +87,9 @@ class DropdownComponent extends React.Component {
   render() {
     return(
       <Dropdown>
-        <Button onClick={this._handleClick.bind(this)} solid>DROPDOWN</Button>
+        <Button onClick={this._handleClick.bind(this)} solid>
+          DROPDOWN <Ionicon fontSize="15px" icon="ios-arrow-down" style={{verticalAlign: 'middle'}} color="white" />
+        </Button>
         <DropdownContainer show={this.state.open}>
           {this.props.headerName ? <DropdownHeader>{this.props.headerName}</DropdownHeader> : ''}
           {this.props.actions && this.props.actions.map((action, key) => (
