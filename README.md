@@ -54,7 +54,7 @@ React components that implement [Clarity Design](https://clarity.design/) using 
 
 ❌ Stack View
 
-❌ Tables
+✅ Tables
 
 ✅ Tabs
 
