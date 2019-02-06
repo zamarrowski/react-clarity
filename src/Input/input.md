@@ -13,3 +13,9 @@
 ```
 <Input label="Name"/>
 ```
+
+### Input with icon
+
+```
+<Input icon="ios-eye-outline"/>
+```
