@@ -10,7 +10,7 @@ const Wrap = (input) => () => <div style={{ maxWidth: "300px" }}>{input}</div>
 storiesOf('Input', module)
   .addDecorator(withKnobs)
   .add('simple', withReadme(Readme, Wrap(<Input />)))
-  .add('with label', withReadme(Readme, Wrap(<Input label="Name" />)))
+  .add('with label', withReadme(Readme, Wrap(<Input label={text('Label', 'Name')} />)))
   .add('with icon', withReadme(Readme, Wrap(
     <Input icon={"ios-eye-outline"} onIconClick={() => alert("onIconClick cb!")} />)
   ))
