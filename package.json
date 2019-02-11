@@ -1,6 +1,6 @@
 {
   "name": "react-clarity",
-  "version": "0.3.2",
+  "version": "0.3.3",
   "description": "React clarity",
   "main": "lib/index.js",
   "author": "zamarrowski",
@@ -13,7 +13,7 @@
     "styled-components": "2.2.3"
   },
   "scripts": {
-    "prepublish": "babel ./src --out-dir ./lib --source-maps --presets es2015,react,stage-2 --plugins babel-plugin-add-module-exports",
+    "prepublish": "babel ./src --out-dir ./lib --source-maps --presets es2015,react,stage-2 --plugins babel-plugin-add-module-exports && cp src/MetropolisRegular.otf ./lib",
     "start": "webpack --watch",
     "build": "webpack",
     "copyToDocs": "bash copyFilesToDocs.sh",
