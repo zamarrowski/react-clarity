@@ -38,7 +38,7 @@ React components that implement [Clarity Design](https://clarity.design/) using 
 
 ✅ Modals
 
-❌ Password
+✅ Password
 
 ✅ Progress Bars
 

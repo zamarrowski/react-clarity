@@ -1,1 +1,0 @@
-{"version":3,"sources":["../../src/Table/TableBody.js"],"names":["styled","tbody"],"mappings":";;;;;;;;AAAA;;;;AACA;;;;;;;;kBAEeA,2BAAOC,K","file":"TableBody.js","sourcesContent":["import React from 'react'\nimport styled from 'styled-components'\n\nexport default styled.tbody`\n  display: table-row-group;\n  vertical-align: middle;\n  border-color: inherit;\n`"]}
