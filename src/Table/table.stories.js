@@ -2,6 +2,8 @@ import React from 'react'
 
 import { storiesOf } from '@storybook/react'
 import { withReadme } from 'storybook-readme'
+import { withKnobs, object } from '@storybook/addon-knobs'
+
 import Readme from './table.md'
 import DataTable from './DataTable'
 import Table from './Table'
@@ -40,7 +42,8 @@ const data = [
 
 
 storiesOf('Table', module)
-  .add('simple', withReadme(Readme, () => <DataTable data={data} />))
+  .addDecorator(withKnobs)
+  .add('simple', withReadme(Readme, () => <DataTable data={object('Data', data)} />))
   .add('custom', withReadme(Readme, () => (
     <Table>
       <TableHeader>
