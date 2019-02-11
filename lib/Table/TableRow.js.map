@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../src/Table/TableRow.js"],"names":["styled","tr"],"mappings":";;;;;;;;AAAA;;;;AACA;;;;;;;;kBAEeA,2BAAOC,E","file":"TableRow.js","sourcesContent":["import React from 'react'\nimport styled from 'styled-components'\n\nexport default styled.tr`\n  box-sizing: inherit;\n  display: table-row;\n  vertical-align: inherit;\n  border-color: inherit;\n`"]}
