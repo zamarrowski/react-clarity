@@ -19,7 +19,10 @@
     "copyToDocs": "bash copyFilesToDocs.sh",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "cypress:open": "cypress open"
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "test": "concurrently 'npm run storybook' 'cypress run' -k -s first ",
+    "cypress:test": "wait-on http://localhost:6006 && npm run cypress:run"
   },
   "devDependencies": {
     "@storybook/addon-actions": "3.4.10",
@@ -36,12 +39,14 @@
     "babel-preset-react": "6.23.0",
     "babel-preset-stage-2": "6.22.0",
     "babel-runtime": "6.26.0",
+    "concurrently": "^4.1.0",
     "css-loader": "0.26.1",
     "cypress": "^3.1.5",
     "file-loader": "0.10.1",
     "jsx-loader": "0.13.2",
     "storybook-readme": "4.0.5",
     "style-loader": "0.13.1",
+    "wait-on": "^3.2.0",
     "webpack": "2.2.1"
   }
 }
