@@ -21,8 +21,8 @@
     "build-storybook": "build-storybook",
     "cypress:open": "cypress open",
     "cypress:run": "cypress run",
-    "test": "concurrently 'npm run storybook' 'cypress run' -k -s first ",
-    "cypress:test": "wait-on http://localhost:6006 && npm run cypress:run"
+    "cypress:test": "wait-on http-get://localhost:6006 && npm run cypress:run",
+    "test": "concurrently 'npm run storybook' 'npm run cypress:test' -k -s first"
   },
   "devDependencies": {
     "@storybook/addon-actions": "3.4.10",
