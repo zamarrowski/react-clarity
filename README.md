@@ -79,4 +79,4 @@ npm install --save react-clarity
 
 ## Documentation
 
-[Read the documentation](https://zamarrowski.github.io/react-clarity/)
+[Read the documentation](https://react-clarity.netlify.com/)
